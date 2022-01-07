@@ -14,7 +14,7 @@ The Backtracking Algorithm recursively assigns a value to a variable and checks 
 
 * **Minimum Remaining Value** – Chooses the variable with the fewest legal values.
 
-* **Degree** – Chooses the variable with the most constaints on remaining variables
+* **Degree** – Chooses the variable with the most constraints on remaining variables
 
 * **Least Constraining Value** – Prioritizes values that rules out the fewest choices for neighboring variables
 
