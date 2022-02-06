@@ -12,7 +12,7 @@ Backtracking has a reduced time complexity of **O(d^n)** compared to **O(n!d^n)*
 
 The Backtracking Algorithm recursively assigns a value to a variable and checks if the constraints are satisfied. If not, the algorithm will "backtrack" and try other assignments. Two key distinctions for backtracking algorithm:
 
-1. One variable at a time – We only consider assignments to a single variable at each step. By arbitrarily chooseing a fixed order to assign variables, we reduce the n! redudancy of a standard search algorithm.
+1. One variable at a time – We only consider assignments to a single variable at each step. By arbitrarily choosing a fixed order to assign variables, we reduce the n! redudancy of a standard search algorithm.
 2. Check constraints as we go – We only consider values that do not conflict previous assignments, thus increasing efficiency. 
 
 ### Heuristics implemented
