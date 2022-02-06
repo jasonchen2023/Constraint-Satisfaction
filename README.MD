@@ -1,6 +1,6 @@
 # Constraint Satisfaction
 
-Implemented the backtracking algorithm to solve two constraint satisfaction problems: **Map Coloring** and **Circuit Board**
+Implemented the backtracking algorithm to solve two constraint satisfaction problems: **Map Coloring** and **Circuit Board**. Backtracking has a reduced time complexity of O(d^n) compared to O(n!d^n) for a standard search, where n is number of variables and d is size of domain. This is because the backtracking algorithm only explores the d^n possible assignments, while a standard search explores all possible permutations of those d^n assignments.
 
 * **Map Coloring** – Each state in Australia is assigned a color such that no two neighboring states share the same color.
 
